@@ -17,25 +17,30 @@ nav {
   padding: 0.6rem 2.5rem;
   position: relative;
 }
-.form-inline {
-  margin-top: 0.4rem;
-}
-
-.search_bar {
-  position: absolute;
-  left: 50%;
-  width: 600px;
-  transform: translateX(-80%);
-}
-
-.search_bar .form-inline .form-control {
-  width: 80%;
-}
 
 .search-bar {
   background-color: #737373;
   border-radius: 10%;
   border: 1px solid #ffffff;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.logo {
+  display: flex;
+  flex: 1;
+}
+
+.search_bar {
+  flex: 4;
+  margin-left: 40px;
+  margin-top: 5px;
+  position: relative;
+}
+
+.search_bar .form-inline .form-control {
+  width: 100%;
 }
 
 .logo,
